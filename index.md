@@ -1,10 +1,10 @@
 ---
 layout: post 
-title: I'm [Your Full Name]
+title: I'm Rishab Shyamal
 hide: true
 ---
 
-Hi! My name is [Your Full Name]
+Hi! My name is Rishab Shyamal
 
 ### Development Environment
 

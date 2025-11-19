@@ -10,7 +10,7 @@ comments: true
 I've been to over 23 countries and 5 continents, here are my favorites below:
 
 <comment>
-Flags are made using Wikipedia images
+Flags from Wikipedia Images
 </comment>
 
 <style>

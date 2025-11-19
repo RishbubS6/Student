@@ -50,6 +50,4 @@ Hi! My name is Rishab Shyamal
 ### Get in Touch
 
 > Feel free to reach out if you'd like to collaborate or learn more about our work. I don't bite!
- <img src="{{site.baseurl}}/images/about/Shotgun.jpg" alt="Image 1">
-
 <p style="color: #2A7DB1;">My 🔥aura🔥 <a href="https://www.youtube.com/watch?v=VwLfXGocD28" style="color: #2A7DB1; text-decoration: underline;">video</a></p>

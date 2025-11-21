@@ -1,7 +1,8 @@
 
+
 ## As a conversation Starter
 
-I've been to over 23 countries and 5 continents, here are my favorites below:
+I've been to over 23 countries and 5 continents (including Antarctca), here are my favorites below:
 
 <comment>
 Flags from Wikipedia Images

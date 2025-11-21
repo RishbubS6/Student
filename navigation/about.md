@@ -115,9 +115,9 @@ For me, everything is around my family and friends
 My most aura pics 🔥
 </comment>
 <div class="image-gallery">
-  <img src="{{site.baseurl}}/images/about/Shotgun.jpg" alt="Image 1">
-  <img src="{{site.baseurl}}/images/about/NYLT.jpg" alt="Image 2">
-  <img src="{{site.baseurl}}/images/about/FG.jpg" alt="Image 3">
+    <img src="{{ site.baseurl }}/images/about/Shotgun.png" alt="Image 1">
+    <img src="{{ site.baseurl }}/images/about/NYLT.png" alt="Image 2">
+    <img src="{{ site.baseurl }}/images/about/Tuff.jpeg" alt="Image 3">
 </div>
 ---
 layout: post

@@ -29,7 +29,7 @@ Hi! My name is Rishab Shyamal
 
 ### Class Progress
 
-> Here is my progress through coding, click to see these online
+> Here is my progress through coding, click to see these online - none work right now
 
 <div style="display: flex; flex-wrap: wrap; gap: 10px;">
     <a href="{{site.baseurl}}/snake" style="text-decoration: none;">

@@ -2,6 +2,12 @@
 
 ## As a conversation Starter
 
+I like random occurences and relaxing.
+
+Love trivia - will digest random facts like a maniac
+
+BIG Cricket fan - I'm the #1 Dhoni Supporter
+
 I've been to over 23 countries and 5 continents (including Antarctca), here are my favorites below:
 
 <comment>
@@ -55,7 +61,7 @@ Flags from Wikipedia Images
     // 2. Define a JavaScript object for our http source and our data rows for the Living in the World grid
     var http_source = "https://upload.wikimedia.org/wikipedia/commons/";
     var living_in_the_world = [
-        {"flag": "0/01/Flag_of_California.svg", "greeting": "Hey", "description": "California - My whole life"},
+        {"flag": "0/01/Flag_of_California.svg", "greeting": "Hi", "description": "California - My whole life"},
         {"flag": "1/17/Flag_of_India.svg", "greeting": "Namaste", "description": "India - Country of origin"},
         {"flag": "f/f4/Flag_of_Greece.svg", "greeting": "Yasou", "description": "Greece - visited"},
         {"flag": "e/ef/Flag_of_Hawaii.svg", "greeting": "Aloha", "description": "Hawaii - visited and loved it"},
@@ -94,25 +100,40 @@ Flags from Wikipedia Images
 
 ### Journey through Life
 
-Here is what I did at those places
-
 - 🏫 Up to high school at Del Norte in California
 - 🏫 High school not yet over, lets go year of '28
 - Traveled to over 23 countries!
 - Scouting America!
-- Quizbowl GOATS
-- I play a LOT of games
+- DECA
+- Quizbowl & A-League are peak 
+- I play a LOT of games:
+- Hollow Knight - both
+- Started League
+- Pokemon
+- Fire Emblem
+- Anime is good: 
+- Sakamoto Days
+- Wind Breaker
+- SAO
+- Bleach
 
-### Culture, Family, and Fun
+### About Me
 
-For me, everything is around my family and friends
+For me, everything is my family and friends
 
-- I'm Indian
+- Soy Indiano
+- I speak English, Tamil, and un poco de Espanol
 - Love to go to the great outdoors, camping, hiking, backpacking
 - Slept in a hammock overnight several times
+- Gamer
+- Love to be involved in the community
+- Gotta love food ofc
+- Gonna be a businessman or lawyer or smth, not sure - just not STEM
+- "Don't break anyone's heart, they only have one. Break their bones instead, they have 206". - Ichigo K.
+- "Shoot for the moon, because if you miss, you'll land amongst the stars". - I forgot who said this
 
 <comment>
-My most aura pics 🔥
+My most aura pics 🔥Go to my main page to see a goated edit of me in full aura mode
 </comment>
 <div class="image-gallery">
     <img src="{{ site.baseurl }}/images/about/Shotgun.png" alt="Image 1">

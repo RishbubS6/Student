@@ -2,15 +2,18 @@
 toc: false 
 layout: post
 title: Rishab's Tools Journey 
-description: My journey with development tools -- GitHub, Cloning a repo, Virtual Environments, and Running a local website.
+description: My journey with development tools -- GitHub, Cloning a repo, Virtual Environments, and Running my local website.
 permalink: /tools/journey
 ---
 
 ## Visual Journey
 
-Linux is the most compatible OS for Developers.  
+I've been using Ubuntu and Powershell for my coding, and learned a lot.
 
-![Tux the Linux Mascot]({{site.baseurl}}/images/tux.png)
+Quick start a site:
+cd RishbubS6/Student - replace my site name with the site you want to edit
+source venv/bin/activate - Activates virtual environment so you can test you code faster instead of being forced to commit
+code . - Opens site up in VScode to make the actual edits
 
 This visual help remind me of Tools and their relationship to my Development Journey. 
 

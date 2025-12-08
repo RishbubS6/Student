@@ -294,10 +294,17 @@ permalink: /snake/
                 // draw new food immediately in red
                 activeDot(food.x, food.y, "#FF0000");
             }
-            // Repaint canvas
-            ctx.beginPath();
-            ctx.fillStyle = "royalblue";
-            ctx.fillRect(0, 0, canvas.width, canvas.height);
+            // Repaint canvas with alternating green tiles (Google-doodle style)
+            // fill the board as a checker pattern of tiles the size of BLOCK
+            const cols = canvas.width / BLOCK;
+            const rows = canvas.height / BLOCK;
+            for (let ry = 0; ry < rows; ry++){
+                for (let rx = 0; rx < cols; rx++){
+                    // choose light or dark green based on parity
+                    ctx.fillStyle = ((rx + ry) % 2 === 0) ? '#c7f0c7' : '#8fd48f';
+                    ctx.fillRect(rx * BLOCK, ry * BLOCK, BLOCK, BLOCK);
+                }
+            }
             // Paint snake
             for(let i = 0; i < snake.length; i++){
                 // snake segments in green

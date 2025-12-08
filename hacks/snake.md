@@ -91,6 +91,7 @@ permalink: /snake/
     }
 </style>
 
+
 <h2>Snake</h2>
 <div class="container">
     <div id="scoreboard" class="fs-4">
@@ -162,6 +163,7 @@ permalink: /snake/
         const button_new_game2 = document.getElementById("new_game2");
         const button_setting_menu = document.getElementById("setting_menu");
         const button_setting_menu1 = document.getElementById("setting_menu1");
+        // (start-choice buttons removed) 
         // Game Control
         const BLOCK = 10;   // size of block rendering
         let SCREEN = SCREEN_MENU;

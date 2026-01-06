@@ -107,12 +107,15 @@ Flags from Wikipedia Images
 
 <script>
     // Base path for local images (place your images in /images/fav_shows/)
-    var shows_http_source = "{{ site.baseurl }}/images/fav_shows/";
+    var site_base = "{{ site.baseurl | default: '' }}";
+    var shows_http_source = (site_base && site_base !== '')
+        ? (site_base.replace(/\/$/, '') + '/images/fav_shows/')
+        : './images/fav_shows/';
     var favorite_shows = [
-        {"img": "sakamoto.svg", "title": "Sakamoto Days"},
-        {"img": "bleach_tybw.svg", "title": "Bleach — TYBW"},
-        {"img": "white_collar.svg", "title": "White Collar"},
-        {"img": "seinfeld.svg", "title": "Seinfeld"}
+        {"img": "Sakamoto_Days.webp", "title": "Sakamoto Days"},
+        {"img": "Bleach.webp", "title": "Bleach — TYBW"},
+        {"img": "White_Collar.jpeg", "title": "White Collar"},
+        {"img": "Sienfeld.webp", "title": "Seinfeld"}
     ];
 
     var showsContainer = document.getElementById("shows_grid");
@@ -120,7 +123,7 @@ Flags from Wikipedia Images
         var item = document.createElement("div");
         item.className = "grid-item";
         var img = document.createElement("img");
-        img.src = shows_http_source + show.img;
+        img.src = shows_http_source + encodeURIComponent(show.img);
         img.alt = show.title;
         var p = document.createElement("p");
         p.textContent = show.title;

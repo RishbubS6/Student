@@ -98,6 +98,38 @@ Flags from Wikipedia Images
     }
 </script>
 
+<!-- Favorite TV Shows grid -->
+## Favorite TV Shows
+
+<div class="grid-container" id="shows_grid">
+    <!-- Favorite shows will be added here by JavaScript -->
+</div>
+
+<script>
+    // Base path for local images (place your images in /images/fav_shows/)
+    var shows_http_source = "{{ site.baseurl }}/images/fav_shows/";
+    var favorite_shows = [
+        {"img": "sakamoto.svg", "title": "Sakamoto Days"},
+        {"img": "bleach_tybw.svg", "title": "Bleach — TYBW"},
+        {"img": "white_collar.svg", "title": "White Collar"},
+        {"img": "seinfeld.svg", "title": "Seinfeld"}
+    ];
+
+    var showsContainer = document.getElementById("shows_grid");
+    for (const show of favorite_shows) {
+        var item = document.createElement("div");
+        item.className = "grid-item";
+        var img = document.createElement("img");
+        img.src = shows_http_source + show.img;
+        img.alt = show.title;
+        var p = document.createElement("p");
+        p.textContent = show.title;
+        item.appendChild(img);
+        item.appendChild(p);
+        showsContainer.appendChild(item);
+    }
+</script>
+
 ### Journey through Life
 
 - 🏫 Up to high school at Del Norte in California

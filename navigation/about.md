@@ -175,9 +175,3 @@ My most aura pics 🔥Go to my main page to see a goated edit of me in full aura
     <img src="{{ site.baseurl }}/images/about/NYLT.png" alt="Image 2">
     <img src="{{ site.baseurl }}/images/about/Tuff.jpeg" alt="Image 3">
 </div>
----
-layout: post
-title: About
-permalink: /about/
-comments: true
----
